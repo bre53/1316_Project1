@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 body {
-	background: url("images/library.jpg")
-		no-repeat scroll top right
+	background: url("images/library2.jpg")
+		no-repeat fixed top right
 }
 *{font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
 }
@@ -56,4 +56,33 @@ h2.quote{
 }
 p.author {
 	text-align: right
+}
+.fullwidth{
+	width: 850px;
+	height: 500px;
+	background-color: floralwhite;
+	border-radius: 15px;
+	Float: right;
+	margin: 10px 10px 10px 10px;
+	padding: 15px 15px 15px 15px;
+	border: thick rgba(203,14,17,0.99);
+	opacity: 90%;
+	
+}
+h3{text-align: center;}
+.sitemap{
+	clear:both;
+	width: 850px;
+	height: 200px;
+	background-color: black;
+	color: white;
+	border-radius: 15px;
+	margin: 10px 10px 10px 10px;
+	padding: 15px 15px 15px 15px;
+	display:none;
+}
+footer{
+	clear:both;
+	text-align: center;
+	color:white;
 }
