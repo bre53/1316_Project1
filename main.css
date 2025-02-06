@@ -4,6 +4,8 @@ body {
 	background: url("images/library.jpg")
 		no-repeat scroll top right
 }
+*{font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
 #container {
 	width: 900px;
 	margin: 0 auto;
@@ -13,10 +15,14 @@ body {
 h1 {
 	color:floralwhite;
 	text-align: center;
+	font-size: 200%;
 }
 .nav p {
+	background-color:black;
 	text-align: center;
-	color:floralwhite
+	color:floralwhite;
+	border-radius: 10px;
+	padding: 5px 0px 5px 0px
 }
 .left {
 	width: 300px;
@@ -41,6 +47,10 @@ h1 {
 	border:thin 3px #99C8D8;
 	opacity: 90%;
 }
+p.boxheader{
+	text-align: center;
+}
+
 h2.quote{
 	font-size: 45px;
 }
